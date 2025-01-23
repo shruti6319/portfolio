@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shruti Thorat | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(white, #f8f9fa);
+            font-family: Arial, sans-serif;
+        }
+
+        .photo {
+            background-color: black;
+            height: 250px;
+            width: 250px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            margin: auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .photo img {
+            width: 100%;
+            height: auto;
+        }
+
+        .photo:hover {
+            transform: scale(1.05);
+            transition: 0.3s;
+        }
+
+        .hover-effect:hover {
+            text-decoration: underline;
+            color: #007bff;
+            transition: 0.3s;
+        }
+
+        .section-title {
+            margin-bottom: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+
+        .card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container py-5">
+        <div class="text-center">
+            <div class="photo">
+                <img src="profile_photo.jpg" alt="Your Portfolio Photo">
+            </div>
+            <h1 class="my-4">Shruti Thorat</h1>
+            <p class="lead">Self-motivated Computer Engineer passionate about solving critical problems and contributing to organizational growth.</p>
+            <a href="mailto:Shrutithorat7602@gmail.com" class="btn btn-primary">Contact Me</a>
+        </div>
+
+        <hr class="my-5">
+
+        <!-- Skills Section -->
+        <section>
+            <h2 class="section-title">Skills</h2>
+            <div class="row text-center">
+                <div class="col-md-2">Python</div>
+                <div class="col-md-2">SQL</div>
+                <div class="col-md-2">HTML5</div>
+                <div class="col-md-2">CSS</div>
+                <div class="col-md-2">OOPs</div>
+                <div class="col-md-2">Django</div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Experience Section -->
+        <section>
+            <h2 class="section-title">Experience</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Web Development Intern</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Elite Softwares (Dec 2022 - Feb 2023)</h6>
+                    <p class="card-text">Implemented front-end enhancements for a Django web application, improving page load speed by 25%. Collaborated with backend teams for seamless integration and data flow.</p>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Projects Section -->
+        <section>
+            <h2 class="section-title">Projects</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">BookShelf</h5>
+                    <p class="card-text">Developed a responsive book management system with features like user authentication and CRUD operations. Technologies used: Django, SQLite, HTML, CSS, and Bootstrap.</p>
+                    <a href="https://shruti28.pythonanywhere.com/book_shelf/home/" target="_blank" class="hover-effect">View Project</a>
+                </div>
+            </div>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Education Section -->
+        <section>
+            <h2 class="section-title">Education</h2>
+            <ul>
+                <li><strong>B.E. in Computer Science</strong> - SPPU University (CGPA: 8.21)</li>
+                <li><strong>HSC</strong> - Vidyadham Junior College, Shirur (69.08%)</li>
+                <li><strong>SSC</strong> - Vidyadham Prashala, Shirur (82.80%)</li>
+            </ul>
+        </section>
+
+        <hr class="my-5">
+
+        <!-- Contact Section -->
+        <section class="text-center">
+            <h2 class="section-title">Contact</h2>
+            <p>Email: <a href="mailto:Shrutithorat7602@gmail.com">Shrutithorat7602@gmail.com</a></p>
+            <p>Phone: 7840932142</p>
+            <p>Location: Pune, India</p>
+            <p><a href="https://www.linkedin.com/in/shruti-thorat-727972207/" target="_blank" class="hover-effect">LinkedIn</a></p>
+        </section>
+    </div>
+</body>
+
+</html>
